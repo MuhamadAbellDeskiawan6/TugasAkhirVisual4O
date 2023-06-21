@@ -98,6 +98,7 @@ ZQuery1.SQL.Add('select * from tabel_siswa');
 ZQuery1.Open;
 ShowMessage('DATA BERHASIL DISIMPAN!');
 posisiawal;
+bersih;
 end;
 end;
 end;
