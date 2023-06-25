@@ -124,7 +124,6 @@ if (Edit1.Text = ZQuery1.Fields[1].AsString) and
 (Edit3.Text = ZQuery1.Fields[3].AsString) and
 (Edit4.Text = ZQuery1.Fields[4].AsString) and
 (Edit5.Text = ZQuery1.Fields[5].AsString) and
-
 (ComboBox1.Text = ZQuery1.Fields[7].AsString) and
 (Edit6.Text = ZQuery1.Fields[8].AsString) and
 (Edit7.Text = ZQuery1.Fields[9].AsString) and
@@ -169,6 +168,7 @@ Edit2.Enabled:=True;
 Edit3.Enabled:=True;
 Edit4.Enabled:=True;
 Edit5.Enabled:=True;
+DateTimePicker1.Enabled:=True;
 ComboBox1.Enabled:=True;
 Edit6.Enabled:=True;
 Edit7.Enabled:=True;
